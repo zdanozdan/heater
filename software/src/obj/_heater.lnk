@@ -1,0 +1,19 @@
+-myuxi
+-b CSEG = 0x0000
+-b XSEG = 0x0000
+-b ISEG = 0x0080
+-b BSEG = 0x0000
+-b SSEG = 0x0081
+-k C:\Program Files\sdcc\bin\..\lib\small
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+./src/obj/_heater.rel
+./src/obj/flash.rel
+./src/obj/keypad.rel
+./src/obj/lcd.rel
+./src/obj/menu.rel
+./src/obj/rtc.rel
+
+-e

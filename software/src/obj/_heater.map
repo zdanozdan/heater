@@ -1,0 +1,340 @@
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+.  .ABS.                           0000   0000 =      0. bytes (ABS,OVR)
+
+      Value  Global
+   --------  --------------------------------
+     0000    l_HOME
+     0000    l_ISEG
+     0000    l_REG_BANK_1
+     0000    l_REG_BANK_2
+     0000    l_REG_BANK_3
+     0000    l__CODE
+     0000    s_BSEG
+     0000    s_CSEG
+     0000    s_REG_BANK_0
+     0000    s_XSEG
+     0000    s__CODE
+     0001    l_BSEG_BYTES
+     0001    l_SSEG
+     0003    l_GSFINAL
+     0003    l_XINIT
+     0003    l_XISEG
+     0004    l_OSEG
+     0006    l_BSEG
+     0008    l_REG_BANK_0
+     0008    s_REG_BANK_1
+     0010    s_REG_BANK_2
+     0018    s_REG_BANK_3
+     0020    s_BSEG_BYTES
+     0021    l_DSEG
+     0021    s_DSEG
+     0042    s_OSEG
+     0080    s_ISEG
+     0081    s_SSEG
+     0086    l_GSINIT
+     018D    l_XSEG
+     018D    s_XISEG
+     76C7    l_CSEG
+     76C7    s_GSINIT
+     774D    s_GSFINAL
+     7750    s_HOME
+     7750    s_XINIT
+     FFF0    _dummy
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+_CODE                              0000   0000 =      0. bytes (REL,CON)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+REG_BANK_0                         0000   0008 =      8. bytes (REL,OVR)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+REG_BANK_1                         0008   0000 =      0. bytes (REL,OVR)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+REG_BANK_2                         0010   0000 =      0. bytes (REL,OVR)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+REG_BANK_3                         0018   0000 =      0. bytes (REL,OVR)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bits  (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+BSEG                               0000   0006 =      6. bits  (REL,CON,BIT)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+BSEG_BYTES                         0020   0001 =      1. bytes (REL,CON)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+DSEG                               0021   0021 =     33. bytes (REL,CON)
+
+      Value  Global
+   --------  --------------------------------
+     0024    _write
+     0026    _T1_count
+     0028    _T2_count
+     002A    _blink_counter
+     002B    _delay_counter
+     002D    _current_blink_params
+     0030    _blinking
+     0031    _current_display_state
+     0032    _current_position
+     0033    _key_code
+     0034    _enter_workloop
+     0035    _temp_long
+     0039    _ZONE_1_PREPARED
+     003A    _ZONE_2_PREPARED
+     003B    _ZONE_3_PREPARED
+     003C    _ZONE_4_PREPARED
+     0040    _bp
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+OSEG                               0042   0004 =      4. bytes (REL,OVR)
+
+      Value  Global
+   --------  --------------------------------
+     0042    __divslong_PARM_2
+     0042    __divulong_PARM_2
+     0042    __gptrput_PARM_2
+     0042    __modsint_PARM_2
+     0042    __modslong_PARM_2
+     0042    __moduint_PARM_2
+     0042    __modulong_PARM_2
+     0042    __mulint_PARM_2
+     0042    __mullong_PARM_2
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+SSEG                               0081   0001 =      1. bytes (REL,CON)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+ISEG                               0080   0000 =      0. bytes (REL,CON)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+XSEG                               0000   018D =    397. bytes (REL,CON,XDATA)
+
+      Value  Global
+   --------  --------------------------------
+  0D:0003    _stack
+  0D:000D    _system_data
+  0D:0181    _system_time
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+XISEG                              018D   0003 =      3. bytes (REL,CON,XDATA)
+
+      Value  Global
+   --------  --------------------------------
+  0D:018D    _battery_counter
+  0D:018F    _update_flash
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+CSEG                               0000   76C7 =  30407. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0031    _main
+  0C:00C4    _read_manufacturer
+  0C:00F5    _flash_write_byte
+  0C:0137    _flash_write_page
+  0C:019D    _find_mapping_code
+  0C:0271    _keypad_init
+  0C:028C    _keypad_pop_front
+  0C:029E    _keypad_check_front
+  0C:02B0    _keypad_purge_buffer
+  0C:02C1    _keypad_get_last_code
+  0C:02D3    _read_zone_temp_1
+  0C:03CA    _read_zone_temp_2
+  0C:04C1    _read_zone_temp_3
+  0C:05B8    _read_zone_temp_4
+  0C:06AF    _timer0_interrupt
+  0C:09E0    _mappingTable
+  0C:0A83    _lcd_delay
+  0C:0AB2    _enable
+  0C:0ACD    _lcd_goto_xy
+  0C:0B05    _lcd_put
+  0C:0B75    _lcd_clear
+  0C:0B8C    _lcd_home
+  0C:0BA3    _putchar
+  0C:0BB6    _lcd_put_string
+  0C:0C2E    _lcd_cursor_on
+  0C:0C45    _lcd_cursor_off
+  0C:0C5C    _lcd_init
+  0C:0CB8    _stack_push_back
+  0C:0CE8    _stack_pop_front
+  0C:0D27    _stack_purge
+  0C:0D3B    _flash_init
+  0C:0F43    _set_new_blink
+  0C:1036    _display_zone_setings
+  0C:12CE    _display_stored_time
+  0C:163D    _display_stored_data
+  0C:18A4    _switch_zone
+  0C:18F3    _switch_zone_prepare
+  0C:1946    _display_enabled_channels
+  0C:1AB5    _is_day_matching
+  0C:1B12    _control_workloop
+  0C:1EB1    _check_external_events
+  0C:1F17    _menu_previous_position
+  0C:1F4F    _reset_workloop
+  0C:2015    _keypad_test_workloop
+  0C:206F    _weekday_worklop
+  0C:22F3    _read_keyboard_data_workloop
+  0C:2560    _zone_workloop
+  0C:2E54    _time_workloop
+  0C:307B    _date_workloop
+  0C:325F    _workloop
+  0C:3421    _battery_test
+  0C:346F    _clear_zones
+  0C:349E    _main_program_workloop
+  0C:37CA    _zone_day_map
+  0C:3812    _dfp
+  0C:3814    _minmax
+  0C:3850    _bpr
+  0C:3AB8    _dpl
+  0C:3C0E    _menu
+  0C:5DB4    _reset_3w
+  0C:5DC5    _wbyte_3w
+  0C:5DEC    _rbyte_3w
+  0C:5E1B    _clear_time_struct
+  0C:5EA7    _ds1302_read_rtc
+  0C:60DC    _ds1302_read_rtc_bcd
+  0C:6254    _ds1302_write_rtc
+  0C:63AC    _bcd2bin
+  0C:63CB    _check_time
+  0C:6534    _local_gmtime
+  0C:67E9    _local_mktime
+  0C:6A0E    _printf_asctime
+  0C:6B9F    _printf_short_asctime
+  0C:6C68    _printf_date
+  0C:6CD6    _printf_weekday_short
+  0C:6D1C    _printf_day
+  0C:6D49    _printf_time
+  0C:6DA5    _ds1302_write_memory
+  0C:6DFC    _ds1302_read_memory
+  0C:6E2A    _month
+  0C:6E42    _day
+  0C:6E52    _day_full
+  0C:6E62    _monthDays
+  0C:6F85    __modulong
+  0C:7008    __divulong
+  0C:706D    __sdcc_external_startup
+  0C:7071    __gptrput
+  0C:70A2    __mulint
+  0C:70A2    __mulint_dummy
+  0C:70BF    __mullong
+  0C:70BF    __mullong_dummy
+  0C:712D    __moduint
+  0C:717A    __divslong
+  0C:71CD    _strlen
+  0C:71F5    __gptrget
+  0C:7221    _printf_fast
+  0C:7537    _int2bcd_0
+  0C:7547    _int2bcd_1
+  0C:7567    _int2bcd_2
+  0C:7587    _int2bcd_3
+  0C:75B7    _int2bcd_4
+  0C:75E7    _int2bcd_5
+  0C:7627    _int2bcd_6
+  0C:7677    _int2bcd_7
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+GSINIT                             76C7   0086 =    134. bytes (REL,CON,CODE)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+GSFINAL                            774D   0003 =      3. bytes (REL,CON,CODE)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+HOME                               7750   0000 =      0. bytes (REL,CON,CODE)
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+XINIT                              7750   0003 =      3. bytes (REL,CON,CODE)
+ASxxxx Linker V01.70 + NoICE + SDCC Feb 1999,  page 1.
+
+Files Linked	  [ module(s) ]
+
+./src/obj/_heater.rel
+./src/obj/flash.rel
+./src/obj/keypad.rel
+./src/obj/lcd.rel
+./src/obj/menu.rel
+./src/obj/rtc.rel
+
+Libraries Linked		       [   object  file   ]
+
+C:\Program Files\sdcc\bin\..\lib\small/liblong.lib    [    _modulong.rel ]
+C:\Program Files\sdcc\bin\..\lib\small/liblong.lib    [    _divulong.rel ]
+C:\Program Files\sdcc\bin\..\lib\small/libsdcc.lib    [         _startup ]
+C:\Program Files\sdcc\bin\..\lib\small/libsdcc.lib    [         _gptrput ]
+C:\Program Files\sdcc\bin\..\lib\small/libint.lib    [          _mulint ]
+C:\Program Files\sdcc\bin\..\lib\small/liblong.lib    [     _mullong.rel ]
+C:\Program Files\sdcc\bin\..\lib\small/libint.lib    [         _moduint ]
+C:\Program Files\sdcc\bin\..\lib\small/liblong.lib    [    _divslong.rel ]
+C:\Program Files\sdcc\bin\..\lib\small/libsdcc.lib    [              _bp ]
+C:\Program Files\sdcc\bin\..\lib\small/libsdcc.lib    [          _strlen ]
+C:\Program Files\sdcc\bin\..\lib\small/libsdcc.lib    [         _gptrget ]
+C:\Program Files\sdcc\bin\..\lib\small/libsdcc.lib    [      printf_fast ]
+
+ASxxxx Linker V01.70 + NoICE + SDCC Feb 1999,  page 2.
+
+User Base Address Definitions
+
+CSEG = 0x0000
+XSEG = 0x0000
+ISEG = 0x0080
+BSEG = 0x0000
+SSEG = 0x0081
+
+
