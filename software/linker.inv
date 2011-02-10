@@ -1,0 +1,8 @@
+--stack-loc
+0x81
+.\src\obj\_heater.rel,
+.\src\obj\rtc.rel,
+.\src\obj\flash.rel,
+.\src\obj\menu.rel,
+.\src\obj\lcd.rel,
+.\src\obj\keypad.rel
